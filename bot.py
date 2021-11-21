@@ -1,17 +1,11 @@
-from os import link
 import sqlite3
 from sqlite3 import Error
 import discord
-from discord.ext.commands import Bot
 import discord.client
 import logging
 import datetime
-from datetime import timedelta
 import sys
-import math
-from pytz import timezone
 from decouple import config
-import asyncio
 from discord.ext import tasks as discordTasks
 import amazonNews
 
